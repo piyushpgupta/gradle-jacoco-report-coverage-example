@@ -1,20 +1,19 @@
-# gradle-simple
+A simple and self explain example that show you how to use **sonarqube** and **jacoco** to generate:
 
-[![Release](https://img.shields.io/github/release/jitpack/gradle-simple.svg?label=maven version)](https://jitpack.io/#jitpack/gradle-simple)
+* Unit tests coverage
+* Line coverage
+* Unit tests success report
 
-Example Gradle project producing a single jar. Uses the `maven` plugin to publish the jar to the local repository.
+# Used framworks
+* [Jacoco coverage gradle plugin](https://docs.gradle.org/current/userguide/jacoco_plugin.html)
+* [Sonar gradle plugin ](https://docs.gradle.org/current/userguide/sonar_plugin.html)
 
-[https://jitpack.io/#jitpack/gradle-simple](https://jitpack.io/#jitpack/gradle-simple)
+# Running it
 
-To install the library add: 
- 
-   ```gradle
-   repositories { 
-        jcenter()
-        maven { url "https://jitpack.io" }
-   }
-   dependencies {
-         compile 'com.github.jitpack:gradle-simple:1.0.5'
-   }
-   ```  
+    $ sonar.sh start
+    $ gradle sonarqube
+    # open browser on http://localhost:9000
 
+
+# Print
+![](http://i.imgur.com/xg80Jbd.png)
