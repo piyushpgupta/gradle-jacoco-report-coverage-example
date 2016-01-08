@@ -5,3 +5,5 @@ build/
 *.jar
 *.aar
 *.war
+.idea/
+gradle-simple.iml
