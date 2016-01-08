@@ -15,6 +15,8 @@ A simple and self explain example that show you how to use **sonarqube** and **j
     $ gradle sonarqube
     # open browser on http://localhost:9000
 
+You can use `gradle sonarqube -x test` too
+
 
 # Print
 ![](http://i.imgur.com/xg80Jbd.png)
