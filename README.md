@@ -7,6 +7,7 @@ A simple and self explain example that show you how to use **sonarqube** and **j
 # Used framworks
 * [Jacoco coverage gradle plugin](https://docs.gradle.org/current/userguide/jacoco_plugin.html)
 * [Sonar gradle plugin ](https://docs.gradle.org/current/userguide/sonar_plugin.html)
+* [How to configure sonar plugin](http://docs.sonarqube.org/display/SONAR/Analyzing+with+SonarQube+Scanner+for+Gradle)
 
 # Running it
 
