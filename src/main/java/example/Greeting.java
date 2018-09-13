@@ -11,5 +11,6 @@ public class Greeting {
   }
   public void notCoveredByUnitTest2() {
    System.out.println(HELLO);
+   
   }
 }
