@@ -20,7 +20,7 @@ public class Greeting {
 
 	}
 	public void notCoveredByUnitTest3() {
-		System.out.println(HELLO);
+		logger.info(HELLO);
 
 	}
 }
