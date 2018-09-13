@@ -19,4 +19,8 @@ public class Greeting {
 		logger.info(HELLO);
 
 	}
+	public void notCoveredByUnitTest3() {
+		System.out.println(HELLO);
+
+	}
 }
