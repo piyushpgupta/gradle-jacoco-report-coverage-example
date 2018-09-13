@@ -1,16 +1,22 @@
 package example;
 
-public class Greeting {
-  static final String HELLO="Hello World";
-  public void coveredByUnitTest() {
-   System.out.println(HELLO);
-  }
+import java.util.logging.Logger;
 
-  public void notCoveredByUnitTest() {
-   System.out.println(HELLO);
-  }
-  public void notCoveredByUnitTest2() {
-   System.out.println(HELLO);
-   
-  }
+public class Greeting {
+	private static final Logger logger = Logger.getLogger(Greeting.class.getName());
+	static final String HELLO = "Hello World";
+
+	public void coveredByUnitTest() {
+		logger.info(HELLO);
+
+	}
+
+	public void notCoveredByUnitTest() {
+		logger.info(HELLO);
+	}
+
+	public void notCoveredByUnitTest2() {
+		logger.info(HELLO);
+
+	}
 }
