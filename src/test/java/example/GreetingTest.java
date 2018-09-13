@@ -7,4 +7,12 @@ public class GreetingTest {
   public void test() {
     new Greeting().coveredByUnitTest();
   }
+  @Test
+  public void test2() {
+    new Greeting().notCoveredByUnitTest2();
+  }
+  @Test
+  public void test3() {
+    new Greeting().notCoveredByUnitTest();
+  }
 }
