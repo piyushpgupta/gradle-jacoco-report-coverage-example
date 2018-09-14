@@ -15,4 +15,8 @@ public class GreetingTest {
   public void test3() {
     new Greeting().notCoveredByUnitTest();
   }
+  @Test
+  public void test4() {
+    new Greeting().notCoveredByUnitTest3();
+  }
 }
